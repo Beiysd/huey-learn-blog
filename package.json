@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-start",
+  "version": "1.0.0",
+  "description": "learn",
+  "main": "docs/.vuepress/config.js",
+  "author": "Huey",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
